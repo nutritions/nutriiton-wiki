@@ -3,7 +3,7 @@ type: source
 status: draft
 topic: obsidian-codex-wiki-setup
 updated: 2026-04-15
-raw_note: "[[raw/processed/obsidian-codex-个人wiki配置记录]]"
+raw_note: "[[raw/processed/others/obsidian-codex-个人wiki配置记录]]"
 related_entities:
   - "[[entities/Obsidian]]"
   - "[[entities/Codex]]"
@@ -18,7 +18,7 @@ related_sources:
 
 ## 来源信息
 
-- 原始记录：[[raw/processed/obsidian-codex-个人wiki配置记录]]
+- 原始记录：[[raw/processed/others/obsidian-codex-个人wiki配置记录]]
 - 记录时间：2026-04-15
 
 ## 核心摘要

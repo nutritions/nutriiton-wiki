@@ -3,7 +3,7 @@ type: source
 status: draft
 topic: codex-proxy-env
 updated: 2026-04-15
-raw_note: "[[raw/processed/codex-env-代理配置与作用说明]]"
+raw_note: "[[raw/processed/others/codex-env-代理配置与作用说明]]"
 related_entities:
   - "[[entities/Codex]]"
   - "[[entities/代理服务]]"
@@ -17,7 +17,7 @@ related_sources:
 
 ## 来源信息
 
-- 原始记录：[[raw/processed/codex-env-代理配置与作用说明]]
+- 原始记录：[[raw/processed/others/codex-env-代理配置与作用说明]]
 - 记录时间：2026-04-15
 
 ## 核心摘要

@@ -43,9 +43,16 @@
 ## 目录约定
 
 ### `raw/`
+### `processed` 子目录规则
+
+- `raw/processed/` 下允许按主题建子目录。
+- 当前默认子目录：`others/`、`java/`。
+- 执行 approve 时，用户可明确指定归档到哪个子目录。
+- 如果用户未指定，默认归档到 `raw/processed/others/`。
+
 
 - `raw/unprocessed/`：待处理的新资料
-- `raw/processed/`：已完成 ingest 的资料
+- `raw/processed/`：已完成 ingest 的资料（可按子目录分类，例如 `others/`、`java/`）
 - `raw/assets/`：从原始资料中保存的图片、附件和其他静态资源
 - `raw/index.md`：素材处理状态索引
 
@@ -258,7 +265,7 @@ Ingest 阶段禁止将 raw 文件直接移入 `processed/`。从 `unprocessed/` 
 5. 将组内每个 raw 文件的 `processing_status` 更新为 `processed`
 6. 写入 `reviewed_at`
 7. 如有必要，补齐 `processed_at`
-8. 将该 ingest 单元内的 raw 文件迁移到 `raw/processed/`
+8. 将该 ingest 单元内的 raw 文件迁移到 `raw/processed/<子目录>/`（用户指定子目录；未指定默认 `others/`）
 9. 同步修复 wiki 中引用这些 raw 的旧路径，至少包括来源页 frontmatter 的 `raw_note` 与正文“原始资料”链接
 10. 对本批 raw 做一次局部自检，确认 `wiki/` 中不再残留对应的旧 `raw/unprocessed/` 路径字符串
 11. 更新 `raw/index.md`

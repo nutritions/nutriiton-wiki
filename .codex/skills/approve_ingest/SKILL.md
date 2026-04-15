@@ -20,7 +20,7 @@ description: 在用户确认后，将 pending_review 的 ingest 单元归档到 
    - `processing_status: processed`
    - `reviewed_at: <今天日期>`
    - `processed_at: <今天日期>`
-9. 将该 ingest 单元内的 raw 文件迁移到 `nutrition-wiki/raw/processed/`
+9. 将该 ingest 单元内的 raw 文件迁移到 `nutrition-wiki/raw/processed/<子目录>/`（用户指定子目录；未指定默认 `others/`）
 10. 同步修复对应来源页及其他 wiki 页面里引用这些 raw 的旧路径，至少包含：
     - frontmatter 中的 `raw_note`
     - 正文“来源信息”下的“原始资料”链接

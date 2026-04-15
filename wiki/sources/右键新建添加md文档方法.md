@@ -3,7 +3,7 @@ type: source
 status: active
 topic: Windows 右键新建 Markdown 文档
 updated: 2026-04-14
-raw_note: "[[raw/processed/右键新建添加md文档方法]]"
+raw_note: "[[raw/processed/others/右键新建添加md文档方法]]"
 external_url: ""
 related_entities:
   - "[[entities/Windows 注册表]]"
@@ -17,7 +17,7 @@ related_sources: []
 
 ## 来源信息
 
-- 原始资料：[[raw/processed/右键新建添加md文档方法]]
+- 原始资料：[[raw/processed/others/右键新建添加md文档方法]]
 - 资料类型：操作笔记
 - 主题：在 Windows 中恢复“右键新建 Markdown 文档”
 
