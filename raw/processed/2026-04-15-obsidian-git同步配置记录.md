@@ -2,8 +2,11 @@
 source_type: conversation_note
 title: Obsidian 使用 Git 配置记录
 created_at: 2026-04-15
+processing_status: processed
 processed_into: [[wiki/sources/Obsidian-使用Git配置记录]]
-processing_status: pending_review
+
+reviewed_at: 2026-04-15
+processed_at: 2026-04-15
 tags:
   - obsidian
   - git
