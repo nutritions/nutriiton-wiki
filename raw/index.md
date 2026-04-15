@@ -9,9 +9,9 @@
 ## 队列概览
 
 - 未处理：0
-- 待确认：0
+- 待确认：1
 - 已处理：3
-- 最新完成：2026-04-15（approve）
+- 最新完成：2026-04-15（ingest）
 
 ## 未处理素材
 
@@ -19,7 +19,7 @@
 
 ## 待确认素材
 
-- 暂无
+- `raw/unprocessed/2026-04-15-obsidian-git同步配置记录.md` -> `wiki/sources/Obsidian-使用Git配置记录.md`（processing_status: pending_review）
 
 ## 已处理素材
 

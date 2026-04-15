@@ -17,6 +17,7 @@
 - [[sources/右键新建添加md文档方法]]：Windows 右键新建 Markdown 文档的注册表导入法与注意事项。
 - [[sources/Codex-env-代理配置与作用说明]]：Codex 代理环境变量、启动脚本与稳定性验证实践。
 - [[sources/Obsidian-Codex-个人Wiki配置记录]]：个人 Wiki 从初始化到日常闭环的配置记录。
+- [[sources/Obsidian-使用Git配置记录]]：Obsidian 接入 Git 的最小配置步骤与插件要点。
 
 ## 实体页
 
@@ -26,16 +27,20 @@
 - [[entities/Obsidian]]：本地知识库承载平台。
 - [[entities/Obsidian Web Clipper]]：网页剪藏到 Vault 的入口工具。
 - [[entities/代理服务]]：提供网络转发能力的代理节点。
+- [[entities/Obsidian Git 插件]]：负责 Obsidian 内 Git 提交与同步的插件。
+- [[entities/GitHub]]：远程仓库托管与认证平台。
 
 ## 概念页
 
 - [[concepts/Windows 右键新建 Markdown 文档]]：通过注册表与 `ShellNew` 启用右键新建 `.md` 的方法。
 - [[concepts/Codex 代理环境变量配置]]：代理变量声明、生效边界与启动时机控制。
 - [[concepts/Obsidian + Codex 个人Wiki工作流]]：从 raw 到 wiki 的标准闭环流程。
+- [[concepts/Obsidian Git 同步配置流程]]：Obsidian 与 GitHub 的最小可用同步流程。
 
 ## 综合页
 
 - [[synthesis/Codex与Obsidian个人Wiki搭建要点]]：配置实践的关键结论与待确认问题。
+- [[synthesis/Obsidian中Git配置最小闭环]]：Obsidian Git 配置策略与操作边界总结。
 
 ## 维护提示
 

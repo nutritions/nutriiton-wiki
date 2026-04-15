@@ -42,3 +42,13 @@
 - 流程字段更新：`processing_status: processed`，`reviewed_at: 2026-04-15`，`processed_at: 2026-04-15`
 - 已修复来源页 raw 引用到 `raw/processed/...`
 - 局部自检：`wiki/` 下已无本批文件对应的旧 `raw/unprocessed/...` 路径残留
+## [2026-04-15] ingest | Obsidian Git 配置记录
+
+- 处理 ingest 单元：`raw/unprocessed/2026-04-15-obsidian-git同步配置记录.md`
+- 新增来源页：[[sources/Obsidian-使用Git配置记录]]
+- 新增概念页：[[concepts/Obsidian Git 同步配置流程]]
+- 新增实体页：[[entities/Obsidian Git 插件]]、[[entities/GitHub]]
+- 新增综合页：[[synthesis/Obsidian中Git配置最小闭环]]
+- 同步更新：[[index]] 与 `raw/index.md`
+- 状态变更：该 raw 已标记为 `pending_review`，等待用户确认
+- 待确认：自动提交频率与多设备并发编辑下的冲突控制策略
