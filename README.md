@@ -19,6 +19,15 @@
 - 推荐内容：网页剪藏、文章、会议纪要、书摘、转写稿
 - 原则：`raw/` 视为事实来源层，正文默认不改写
 
+### 1b. 跨工作区快速写入（Capture from Other Workspace）
+
+- 命令：`$capture-to-unprocessed`
+- 适用场景：你在其他目录或其他会话中拿到了有用信息，想先快速写进本库 `raw/unprocessed/`，再走 ingest 流程。
+- 典型用法：
+  - `用 capture-to-unprocessed 把下面这段对话要点写进 nutrition-wiki 的 unprocessed：...`
+  - `用 capture-to-unprocessed 记录这次 env 代理配置经验，文件名用今天日期+关键词`
+- 结果：会生成一条新的原始记录到 `raw/unprocessed/`，后续可直接执行 `$ingest_raw`。
+
 ### 2. 入库沉淀（Ingest）
 
 - 命令：`$ingest_raw`
@@ -71,6 +80,7 @@
 ## 常用对话指令示例
 
 - `用 ingest_raw 处理 raw/unprocessed 的下一组资料`
+- `用 capture-to-unprocessed 把这段跨工作区经验写进 nutrition-wiki 的 unprocessed`
 - `运行 query_wiki：总结最近处理的主题脉络`
 - `运行 approve_ingest，归档刚才那一批`
 - `运行 lint_wiki，检查当前知识库健康度`
@@ -80,4 +90,3 @@
 - 未经确认，不要把 raw 从 `unprocessed` 直接移到 `processed`
 - 关键结论尽量链接本地 `sources` 页面
 - 不确定内容标注“待确认”，不要写成确定事实
-
